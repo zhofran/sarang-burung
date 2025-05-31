@@ -6,9 +6,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:report_sarang/env/class/app_env.dart';
 import 'package:report_sarang/src/dashboard/cubit/financial_cubit.dart';
 import 'package:report_sarang/src/dashboard/cubit/dashboard_cubit.dart';
-import 'package:report_sarang/src/dashboard/widgets/financial_report_dashboard.dart';
+// import 'package:report_sarang/src/dashboard/widgets/financial_report_dashboard.dart';
 import 'package:report_sarang/src/dashboard/widgets/financial_summary_dashboard.dart';
-import 'package:report_sarang/src/dashboard/widgets/financial_detail_report_dashboard.dart';
+// import 'package:report_sarang/src/dashboard/widgets/financial_detail_report_dashboard.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});
@@ -44,7 +44,7 @@ class _DashboardPageState extends State<DashboardPage> {
   ];
 
   void onRefresh() {
-    context.read<FinancialCubit>().go();
+    context.read<FinancialCubit>().fetchYearlyExpenses();
   }
 
   @override
@@ -150,16 +150,16 @@ class _DashboardPageState extends State<DashboardPage> {
               padding: const EdgeInsets.all(8.0),
               child: Column(
                 children: [
-                  FinancialReportView(),
-                  SizedBox(height: 10),
+                  // FinancialReportView(),
+                  // SizedBox(height: 10),
 
                   FinancialSummaryDashboard( 
                     period_type: period_type,
                   ),
                   SizedBox(height: 10),
 
-                  FinancialDetailReportView(),
-                  SizedBox(height: 10),
+                  // FinancialDetailReportView(),
+                  // SizedBox(height: 10),
                 ],
               )
             ),
