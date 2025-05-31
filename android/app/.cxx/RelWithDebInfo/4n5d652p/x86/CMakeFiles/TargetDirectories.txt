@@ -1,0 +1,2 @@
+D:/Zhofran/future/work/report_sarang/android/app/.cxx/RelWithDebInfo/4n5d652p/x86/CMakeFiles/edit_cache.dir
+D:/Zhofran/future/work/report_sarang/android/app/.cxx/RelWithDebInfo/4n5d652p/x86/CMakeFiles/rebuild_cache.dir

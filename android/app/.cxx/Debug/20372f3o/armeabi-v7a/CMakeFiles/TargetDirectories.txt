@@ -1,0 +1,2 @@
+D:/Zhofran/future/work/report_sarang/android/app/.cxx/Debug/20372f3o/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Zhofran/future/work/report_sarang/android/app/.cxx/Debug/20372f3o/armeabi-v7a/CMakeFiles/rebuild_cache.dir
